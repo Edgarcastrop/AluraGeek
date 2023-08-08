@@ -1,0 +1,89 @@
+.boton_agregar{
+    width: 162px;
+    height: 40px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+}
+.container_produtos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.a_ver_productos{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2A7AE4;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    font-size: 32px;
+    font-weight: bold;
+    color: #464646;
+}
+.div_encabezado{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px 20px 0px;
+}
+.ul_productos{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+}
+.ul_productos li{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.nombre_producto{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.precio{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.imagen_producto{
+    height: 150px;
+}
+.div_productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px 0;
+}
+.div_botones{
+    display: flex;
+    position: relative;
+    top: -150px;
+    left: 100px;
+    background-color: none;
+}
+.boton_editar{
+    height: 24px;
+    width: 24px;
+    background: none;
+    background-image: url("../imgs/lapiz.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.boton_eliminar{
+    height: 24px;
+    width: 24px;
+    background: none;
+    background-image: url("../imgs/eliminar.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+.container_nuevo_producto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.form_container_crear{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.form_nuevo_producto{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.text_agregar{
+    font-size: 32px;
+    font-weight: bold;
+}
+.input_nuevo_container{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #A2A2A2;
+    font-size: 12px;
+}
+.input_nuevo_container label{
+    margin-left: 8px;
+}
+.descripcion{
+    padding-bottom: 40px;
+}
+.input_text{
+    border: none;
+    height: 25px;
+    font-size: 16px;
+    font-weight: regular;
+    margin-left: 8px;
+    font-family: 'Raleway', sans-serif;
+}
+.input_text:focus{
+    outline: none;
+}
+.option_container{
+    font-size: 16px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.option_container:focus{
+    outline: none;
+}
+option{
+    background-color: white;
+}
+.button_submit{
+    width: 100%;
+    color: white;
+    background-color: #2A7AE4;
+    height: 52px;
+    border: none;
+}
+

@@ -1,0 +1,78 @@
+.container_nosotros{
+    width: 100%;
+    background-color: #EAF2FD;
+    display: flex;
+    padding-bottom: 50px;
+}
+.info_container{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: self-start;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.info_logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info_enlaces{
+    width: 20%;
+}
+.info_inputs{
+    width: 50%;
+}
+.a_nosotros{
+    color: #464646;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: medium;
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.form_container input{
+    border: none;
+    outline: transparent;
+}
+.form_nombre{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 0px 0px #A2A2A2;
+}
+.info_container p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.form_nombre label{
+    color: #A2A2A2;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.form_nombre input{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.mensaje{
+    padding-bottom: 60px;
+    text-align:justify;
+    margin-bottom: 30px;
+}
+.boton_submit_nosotros{
+    width: 144px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 16px;
+    border: 0px solid transparent;
+}

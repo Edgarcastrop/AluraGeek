@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/nosotros.css">
+    <link rel="stylesheet" href="../assets/css/producto.css">
+    <link rel="stylesheet" href="../assets/css/pie_de_pagina.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    *{
+        font-family: 'Raleeway', sans-serif;
+    }
+</style>
+<body>
+    <header>
+        <div class="divisor_header">
+            <img src="../assets/imgs/Logo.png" alt="Logo de AluraGeek" class="logo">
+            <form class="formulario">
+                <input type="text" placeholder="¿Que desea buscar?" class="input_header">
+                <button type="submit" class="boton_submit"></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="producto_container" data-producto>
+            
+        </section>
+        <section class="container_nosotros">
+            <div class="info_container info_logo">
+                <img src="../assets/imgs/Logo.png" alt="Logo de AluraGeek">
+            </div>
+            <div class="info_container info_enlaces">
+                <a href="#" class="a_nosotros">Quienes somos</a>
+                <a href="#" class="a_nosotros">Politicas de privacidad</a>
+                <a href="#" class="a_nosotros">Programa de fidelidad</a>
+                <a href="#" class="a_nosotros">Nuestras tiendas</a>
+                <a href="#" class="a_nosotros">Quiero ser franquiciado</a>
+                <a href="#" class="a_nosotros">Anuncie aqui</a>
+            </div>
+            <div class="info_container info_inputs">
+                <p>Hable con nosotros</p>
+                <form class="form_container">
+                    <div class="form_nombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre">
+                    </div>
+                    <input type="text" placeholder="Escribe tu mensaje" class="mensaje">
+                    <button type="submit" class="boton_submit_nosotros">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="pie_pagina">
+        <p>Desarrollado por Edgar Omar Castro Perez</p>
+        <p>2023</p>
+    </footer>
+    <script type="module" src="../controllers/producto_solo.js"></script>
+</body>
+</html>

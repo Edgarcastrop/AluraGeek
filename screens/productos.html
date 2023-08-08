@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/productos_all.css">
+    <link rel="stylesheet" href="../assets/css/pie_de_pagina.css">
+</head>
+<style>
+    *{
+        font-family: 'Raleway', sans-serif;
+    }
+</style>
+<body>
+    <header>
+        <div class="divisor_header">
+            <img src="../assets/imgs/Logo.png" alt="Logo de AluraGeek" class="logo">
+            <form class="formulario">
+                <input type="text" placeholder="¿Que desea buscar?" class="input_header">
+                <button type="submit" class="boton_submit"></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="container_produtos">
+            <div class="div_encabezado">
+                <p class="titulo">Todos los productos</p>
+                <a href="nuevo_produto.html" class="a_ver_productos"><button class="boton_agregar">Agregar productos</button></a>
+            </div>
+            <div class="div_productos">
+                <ul class="ul_productos"  data-consolas data-starwars data-diversos>
+                </ul>
+        </section>
+    </main>
+    <footer class="pie_pagina">
+        <p>Desarrollado por Edgar Omar Castro Perez</p>
+        <p>2023</p>
+    </footer>
+    <script type="module" src="../controllers/productos.js"></script>
+</body>
+</html>

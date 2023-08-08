@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Producto</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/nosotros.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/pie_de_pagina.css">
+    <link rel="stylesheet" href="../assets/css/nuevo_producto.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        font-family: 'Raleway', sans-serif;
+    }
+</style>
+<body>
+    <header>
+        <div class="divisor_header">
+            <img src="../assets/imgs/Logo.png" alt="Logo de AluraGeek" class="logo">
+            <form class="formulario">
+                <input type="text" placeholder="¿Que desea buscar?" class="input_header">
+                <button type="submit" class="boton_submit"></button>
+            </form>
+        </div>
+        <a href="productos.html"><button class="login_button">Menu de administrador</button></a>
+    </header>
+    <main>
+        <section class="container_nuevo_producto">
+            <div class="form_container_crear">
+                <p class="text_agregar">Agregar nuevo producto</p>
+                <form class="form_nuevo_producto" data-form>
+                    <div class="input_nuevo_container">
+                        <label for="url">URL de imagen</label>
+                        <input type="text" name="url" class="input_text" data-url>
+                    </div>
+                    <div class="input_nuevo_container">
+                        <label for="categoria">Categoria</label>
+                        <select name="categoria" class="option_container" data-opcion>
+                            <option value="starwars">Starwars</option>
+                            <option value="consolas">Consolas</option>
+                            <option value="diversos">Diversos</option>
+                        </select>
+                    </div>
+                    <div class="input_nuevo_container">
+                        <label for="Nombre">Nombre del producto</label>
+                        <input type="text" name="Nombre" class="input_text" data-nombre>
+                    </div>
+                    <div class="input_nuevo_container">
+                        <label for="precio">Precio del producto</label>
+                        <input type="text" name="precio" class="input_text precio" data-precio>
+                    </div>
+                    <div class="input_nuevo_container">
+                        <input type="text" name="descripcion" placeholder="Descripcion del producto" class="input_text descripcion" data-descripcion>
+                    </div>
+                    <button type="submit" class="button_submit">Agregar Producto</button>
+                </form>
+            </div>
+
+        </section>
+        <section class="container_nosotros">
+            <div class="info_container info_logo">
+                <img src="../assets/imgs/Logo.png" alt="Logo de AluraGeek">
+            </div>
+            <div class="info_container info_enlaces">
+                <a href="#" class="a_nosotros">Quienes somos</a>
+                <a href="#" class="a_nosotros">Politicas de privacidad</a>
+                <a href="#" class="a_nosotros">Programa de fidelidad</a>
+                <a href="#" class="a_nosotros">Nuestras tiendas</a>
+                <a href="#" class="a_nosotros">Quiero ser franquiciado</a>
+                <a href="#" class="a_nosotros">Anuncie aqui</a>
+
+            </div>
+            <div class="info_container info_inputs">
+                <p>Hable con nosotros</p>
+                <form class="form_container">
+                    <div class="form_nombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre">
+                    </div>
+                    <input type="text" placeholder="Escribe tu mensaje" class="mensaje">
+                    <button type="submit" class="boton_submit_nosotros">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="pie_pagina">
+        <p>Desarrollado por Edgar Omar Castro Perez</p>
+        <p>2023</p>
+</footer>
+<script type="module" src="../controllers/nuevo_producto.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

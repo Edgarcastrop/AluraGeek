@@ -1,0 +1,30 @@
+.producto_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.img_producto{
+    height: 403px;
+    margin-right: 10px;
+}
+.producto{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+}   
+.nombre_producto{
+    font-size: 52px;
+    font-weight: medium;
+    padding-bottom: 30px;
+}
+.precio{
+    font-size: 16px;
+    font-weight: bold;
+}
+.descripcion{
+    font-size: 16px;
+    font-weight: medium;
+}
