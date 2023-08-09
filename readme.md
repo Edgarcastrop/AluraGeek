@@ -12,6 +12,10 @@ Luego hacemos el comando:
 ```bash
 npm install -g json-server
 ```
+Luego hacen el comando
+```bash
+npm init
+```
 ## Uso
 Luego de que añadas los datos o solo dejas los que ya estan pones el siguiente comando:
 ```bash
