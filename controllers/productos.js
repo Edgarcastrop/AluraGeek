@@ -1,16 +1,21 @@
 import { cliente_productos } from "../service/client-service.js";
 
+const logo = document.querySelector(".logo")
+logo.addEventListener("click", () =>{
+    window.location.href = "../index.html";
+})
+
 const ponerproducto = (producto, precio, imagen, id, categoria) =>{
     const lista = document.createElement("li");
     const contenido = `
-        <img src="${imagen}" alt="${producto}" class="imagen_producto">
+        <img src="../${imagen}" alt="${producto}" class="imagen_producto">
         <div class="div_botones">
             <button class="boton_eliminar" id="${id}" name="${categoria}" type="button"></button>
             <a href="../screens/editar_producto.html?id=${id}&categoria=${categoria}" class="boton_editar"></a>
         </div>
         <p class="nombre_producto">${producto}</p>
         <p class="precio">$${precio}.00</p>
-        <a href="../screens/producto.html?id=${id}" class="a_ver_productos">Ver producto</a>`
+        <a href="producto.html?id=${id}&categoria=${categoria}" class="a_ver_productos">Ver producto</a>`
         lista.innerHTML = contenido;
         const bton = lista.querySelector("button");        
         bton.addEventListener("click", () => {

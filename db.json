@@ -2,44 +2,45 @@
   "starwars": [
     {
       "producto": "Taza de stormtrooper",
-      "precio": "100",
-      "descripcion": "",
-      "imagen": "../assets/imgs/tasa_starwars.png",
+      "precio": "110",
+      "descripcion": "Tasa de stormtrooper de buena calidad 100% porcelana, ideal para tomar cafe",
+      "imagen": "./assets/imgs/tasa_starwars.png",
+      "categoria": "starwars",
       "id": "6545bbdc-12c4-4f3d-802d-6ddb9790269a"
     },
     {
       "producto": "Figuras funko pop",
       "precio": "50",
       "descripcion": "",
-      "imagen": "../assets/imgs/figura_funko.png",
+      "imagen": "./assets/imgs/figura_funko.png",
       "id": "c37e1def-3dee-4d97-a9f2-2112d51ddf52"
     },
     {
       "producto": "Figura de yoda",
       "precio": "70",
       "descripcion": "",
-      "imagen": "../assets/imgs/figura_yoda.png",
+      "imagen": "./assets/imgs/figura_yoda.png",
       "id": "64654ff3-1588-4252-82a5-2a2297b586fb"
     },
     {
       "producto": "Figura stormtrooper",
       "precio": "120",
       "descripcion": "",
-      "imagen": "../assets/imgs/figura_2.png",
+      "imagen": "./assets/imgs/figura_2.png",
       "id": "5063ca2c-6013-4ff3-a3e4-29ef25c9bd8b"
     },
     {
       "producto": "Figura de Grogu",
       "precio": "200",
       "descripcion": "",
-      "imagen": "../assets/imgs/figura_grogu.png",
+      "imagen": "./assets/imgs/figura_grogu.png",
       "id": "54794588-7dd0-41d9-b994-053024d4c51a"
     },
     {
       "producto": "Figura Kylo ren realista",
       "precio": "150",
       "descripcion": "",
-      "imagen": "../assets/imgs/figura_n1.png",
+      "imagen": "./assets/imgs/figura_n1.png",
       "id": "7db26a00-ee51-44a6-b3cb-dca358c15530"
     }
   ],
@@ -48,7 +49,7 @@
       "producto": "Control de xbox",
       "precio": "50",
       "descripcion": "Control de Xbox series S de uso múltiple, funciona tanto en PC como en consolas de la familia Xbox",
-      "imagen": "../assets/imgs/control_xbox.png",
+      "imagen": "./assets/imgs/control_xbox.png",
       "categoria": "consolas",
       "id": "f9e4b3ef-78fb-420b-bd1e-fc31a80b335b"
     },
@@ -56,35 +57,35 @@
       "producto": "Playstation 5 blue edition",
       "precio": "500",
       "descripcion": "",
-      "imagen": "../assets/imgs/playstation.png",
+      "imagen": "./assets/imgs/playstation.png",
       "id": "87f147e0-abd7-4cd2-b01f-dfd2928c4141"
     },
     {
       "producto": "Consola NES clasica",
       "precio": "120",
       "descripcion": "",
-      "imagen": "../assets/imgs/nintendo_nes.png",
+      "imagen": "./assets/imgs/nintendo_nes.png",
       "id": "bbd67a0f-66c9-49f8-8191-b5103aa1d52c"
     },
     {
       "producto": "Joycon para switch",
       "precio": "60",
       "descripcion": "",
-      "imagen": "../assets/imgs/joycons.png",
+      "imagen": "./assets/imgs/joycons.png",
       "id": "84644b0a-cb5d-4d20-bdb2-d911f3a8c928"
     },
     {
       "producto": "Xbox series X",
       "precio": "500.00",
       "descripcion": "",
-      "imagen": "../assets/imgs/xbox_series_x.png",
+      "imagen": "./assets/imgs/xbox_series_x.png",
       "id": "0439421a-40c8-48a2-9457-f1936e8b006f"
     },
     {
       "producto": "Gameboy transparente",
       "precio": "80",
       "descripcion": "",
-      "imagen": "../assets/imgs/gameboy.png",
+      "imagen": "./assets/imgs/gameboy.png",
       "id": "104ffa08-25de-4695-a30c-9d12fb16d3b8"
     }
   ],
@@ -92,44 +93,45 @@
     {
       "producto": "Playera con logo de Atari",
       "precio": "30",
-      "descripcion": "",
-      "imagen": "../assets/imgs/camiseta_logo_atari.png",
+      "descripcion": "Playera elegante de la marca Atari ",
+      "imagen": "./assets/imgs/camiseta_logo_atari.png",
+      "categoria": "diversos",
       "id": "a52ba64e-558f-4c00-8fea-b2384f837e9a"
     },
     {
       "producto": "Confort grip de Joycons",
       "precio": "40",
       "descripcion": "",
-      "imagen": "../assets/imgs/confort_grip_switch.png",
+      "imagen": "./assets/imgs/confort_grip_switch.png",
       "categoria": "diversos",
       "id": "d39c6457-2cad-4fe5-9e1d-a994b9061580"
     },
     {
       "producto": "Figura de Sonic",
-      "precio": "$35",
+      "precio": "35",
       "descripcion": "",
-      "imagen": "../assets/imgs/Figura_de_sonic.png",
+      "imagen": "./assets/imgs/Figura_de_sonic.png",
       "id": "42638e3a-341b-4eb3-b560-6ebb84186a3b"
     },
     {
       "producto": "Reloj calendario",
       "precio": "25",
       "descripcion": "",
-      "imagen": "../assets/imgs/reloj_calendario.png",
+      "imagen": "./assets/imgs/reloj_calendario.png",
       "id": "6ef8afba-f106-4086-a8fe-bffbf73b32c0"
     },
     {
       "producto": "Lentes de realida virtual",
       "precio": "120",
       "descripcion": "",
-      "imagen": "../assets/imgs/lentes_de_VR.png",
+      "imagen": "./assets/imgs/lentes_de_VR.png",
       "id": "01f593f4-5cdb-4a4d-b4a6-9221964458c3"
     },
     {
       "producto": "Traje enorme",
       "precio": "300",
       "descripcion": "traje enorme de pikachu",
-      "imagen": "../assets/imgs/traje_pikachu.png",
+      "imagen": "./assets/imgs/traje_pikachu.png",
       "categoria": "diversos",
       "id": "fed4ae4b-6950-4f8d-bd8f-6faee0bc66fa"
     }

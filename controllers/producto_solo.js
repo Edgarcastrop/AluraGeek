@@ -5,7 +5,7 @@ const informacion = (url, producto, precio, descripcion ) => {
     const div = document.createElement("div");
     div.className = "producto";
     const contenido = `
-        <img src="${url}" alt="${producto}" class="img_producto">
+        <img src="../${url}" alt="${producto}" class="img_producto">
         <div class="texto_container">
             <p class="nombre_producto" data-titulo>${producto}</p>
             <p class="precio" data-precio>$${precio}</p>

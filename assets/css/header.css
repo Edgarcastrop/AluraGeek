@@ -20,6 +20,7 @@ header{
 }
 .logo{
     margin-right: 20px;
+    cursor: pointer;
 }
 .boton_submit{
     height: 30px;
